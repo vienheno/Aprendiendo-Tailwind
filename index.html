@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendiendo Tailwind</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-black text-white">
+    <header class="px-2 py-4 flex items-center justify-center gap-3">
+        <svg class="w-18">
+            <use href="assets/sprite.svg#tailwind"></use>
+        </svg>
+        <h1 class="text-center text-3xl font-semibold text-yellow-500">TailWind CSS</h1>
+    </header>
+
+    <main class="px-2">
+        <section>
+            <h2 class="text-xl">1. Instalación de TailWind</h2><hr>
+            <p class="px-4">En el <b>&lt;head&gt;</b> agregar la siguiente linea:<br><code class="text-yellow-300">&lt;script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"&gt;&lt;/script&gt;</code><br><br>Esta linea de codigo hará que Tailwind funcione correctamente sin necesidad de instalar todos los archivos, sin embargo este metodo solo es recomendable para <b>desarrollo</b> y no para mandar a produccion.</p><br>
+        </section>
+        <section>
+            <h2 class="text-xl">2. Padding y Margin</h2><hr>
+            <p class="px-4">
+                <b>Padding:</b> Margen interior del contenedor. <br>
+                <b>Marging:</b> Margen exterior del contenedor.
+
+            </p>
+
+        </section>
+    </main>
+
+    <footer class="p-2 fixed bottom-0 left-0 w-full bg-black text-white">
+        <h3>Creado por Victor Herrera</h3>
+    </footer>
+    
+</body>
+
+</html>
